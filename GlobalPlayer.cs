@@ -6,10 +6,10 @@ namespace ReaperMod
 {
 	public class GlobalPlayer : ModPlayer
 	{
-		public bool sigil = false;
+	public bool sigil = false;
         public float judgement = 0f;
         public int JudgementCharge = 0;
-		public float ReaperDamage = 0f;
+	public float ReaperDamage = 0f;
         public float ReaperCrit = 0f;
         public override void PostUpdate()
         {
